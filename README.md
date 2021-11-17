@@ -1,1 +1,3 @@
-# senai_eng_control_auto_2021
+# Engenharia de Controle e Automação
+
+# Alguns arquivos e funções no matlab
