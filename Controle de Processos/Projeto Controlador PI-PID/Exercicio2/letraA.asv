@@ -1,0 +1,15 @@
+% 2)Dado os diagramas de blocos abaixo, determine os ganhos dos 
+% controladores Proporcional e Integral, com as especificações que 
+% acompanham cada diagrama:
+
+% a)Especificar os ganhos para que o sistema passe a ter uma constante de tempo em 50ms. 
+% (Resposta: KP=3.3 / KI=26.6)
+
+R = 10;
+Kp = 1;
+Kh = 1.5;
+Kg = 0.5;
+Tal_G = 1/8;
+Tal_I = Tal_G
+G = tf([4],[1 8])
+PI = Kp*tf([Tal_I 1],[Tal_I 0])
